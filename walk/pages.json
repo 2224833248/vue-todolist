@@ -1,0 +1,314 @@
+{
+	"pages": [{
+			"path": "pages/walk/walk",
+			"style": {				
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"transparentTitle": "always",
+				"navigationBarBackgroundColor": "#49A3FF",
+				"disableScroll": true,
+				"titlePenetrate":"YES",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": "false"
+				},
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				}				
+			}
+		},
+		{
+			"path": "pages/walk/strategy",
+			"style": {
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				},
+				"navigationBarTitleText": "走路钱多多规则",
+				"disableScroll": true,
+				"transparentTitle": "none",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				}
+			}
+		}, {
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#3D9BFE",
+				"transparentTitle": "auto",
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				}
+			}
+		},
+		{
+			"path": "pages/rank/rank",
+			"style": {
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#3D9BFE",
+				"transparentTitle": "auto",
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				},
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/my/task",
+			"style": {
+				"navigationBarTitleText": "全部任务",
+				"disableScroll": true,
+				"transparentTitle": "none",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO",
+					"usingComponents": {}
+				}
+			}
+		},
+		{
+			"path": "pages/exchange/exchange",
+			"style": {
+				"disableScroll": true, // 禁止原生页面滚动, 解决Android小程序下拉卡顿的问题
+				"app-plus": {
+					"bounce": "none" // 取消APP端iOS回弹,避免与下拉刷新冲突 (可统一配在 'globalStyle')
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"transparentTitle": "none",
+				"navigationBarTitleText": "我的多多币"
+			}
+		}, {
+			// 省钱购
+			"path": "pages/goods/index",
+			"style": {
+				
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"transparentTitle": "always",
+				"navigationBarBackgroundColor": "#49A3FF",
+				"disableScroll": true,
+				"titlePenetrate":"YES",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"app-plus": {
+					"bounce": "none", // 取消APP端iOS回弹,避免与下拉刷新冲突 (可统一配在 'globalStyle')
+					"scrollIndicator": "none",
+					"titleNView": "false"
+				},
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar"
+				}
+
+			},
+			"disableScroll": false,
+			"mp-alipay": {
+				"allowsBounceVertical": "NO"
+			}
+		}, {
+			"path": "pages/goods/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "none",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "none",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/gift/index",
+			"style": {
+				"transparentTitle": "none",
+				"navigationBarTitleText": "兑换商城",
+				"backgroundColor": "#f5f5f5",
+				"disableScroll": true, // 禁止原生页面滚动, 解决Android小程序下拉卡顿的问题
+				"app-plus": {
+					"bounce": "none" // 取消APP端iOS回弹,避免与下拉刷新冲突 (可统一配在 'globalStyle')
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/gift/detail",
+			"style": {
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/gift/record",
+			"style": {
+				"navigationBarTitleText": "兑换记录",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/gift/pay",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/address/list",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/address/edit",
+			"style": {
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/inviteRecord/inviteRecord",
+			"style": {
+				"navigationBarTitleText": "邀请记录",
+				"transparentTitle": "none",
+				"usingComponents": {
+					"navbar": "/components/navbar/navbar",
+					"loading": "/components/loading/loading"
+				}
+			}
+		}, {
+			"path": "pages/my/feedback",
+			"style": {
+				"navigationBarTitleText": "建议反馈",
+				"transparentTitle": "none",
+				"backgroundColor": "#f5f5f5"
+			}
+		}, {
+			"path": "pages/myFeedback/myFeedback",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"transparentTitle": "none",
+				"backgroundColor": "#f5f5f5"
+			}
+		}, {
+			"path": "pages/myFeedDatails/myFeedDatails",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"transparentTitle": "none",
+				"backgroundColor": "#f5f5f5"
+			}
+		}, {
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"transparentTitle": "none"
+			}
+		}, {
+			"path": "pages/myGold/myGold",
+			"style": {
+				"navigationBarTitleText": "我的余额",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/balance/balance",
+			"style": {
+				"navigationBarTitleText": "我的余额",
+				"transparentTitle": "none",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+
+		},
+		{
+			"path": "pages/red/index",
+			"style": {
+				"navigationBarTitleText": "兑换红包",
+				"transparentTitle": "auto",
+				"navigationBarBackgroundColor": "#6D52D8"
+			}
+		},
+		{
+			"path": "pages/goods/album",
+			"style": {
+				"navigationBarTitleText": "限量秒杀款",
+				"transparentTitle": "none"
+			}
+		}, {
+			"path": "pages/more/more",
+			"style": {
+				"navigationBarBackgroundColor": "#FF2C32",
+				// "navigationBarTitleText": "大额券",
+				"transparentTitle": "none"
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"transparentTitle": "always"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"fontSize": "22rpx",
+		"selectedColor": "#000000",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/walk/walk",
+				"iconPath": "static/walk/indexs.png",
+				"selectedIconPath": "/static/walk/indexsColor.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/goods/index",
+				"iconPath": "static/walk/save.png",
+				"selectedIconPath": "static/walk/saveColor.png",
+				"text": "省钱购"
+			},
+			{
+				"pagePath": "pages/gift/index",
+				"iconPath": "static/walk/shop.png",
+				"selectedIconPath": "static/walk/shopColor.png",
+				"text": "兑换商城"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/walk/mine.png",
+				"selectedIconPath": "static/walk/mineColor.png",
+				"text": "我的"
+			}
+		]
+	}
+}

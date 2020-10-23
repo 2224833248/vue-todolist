@@ -1,0 +1,300 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "开心签到",
+				"navigationBarBackgroundColor": "#2E8AFF",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "签到",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myGold/myGold",
+			"style": {
+				// "navigationBarTitleText": "我的金币",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		}, {
+			"path": "pages/welfare/welfare",
+			"style": {
+				"navigationBarTitleText": "福利中心",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/exchange/exchange",
+			"style": {
+				"navigationBarTitleText": "兑换红包",
+				// "transparentTitle": "always",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/ruleDateils/ruleDateils",
+			"style": {
+				"navigationBarTitleText": "活动规则",
+				"transparentTitle": "NO",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO",
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/allTask/allTask",
+			"style": {
+				"navigationBarTitleText": "任务中心",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "none",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "建议反馈",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/applyPay/applyPay",
+			"style": {
+				// "navigationBarTitleText": "早起打卡挑战",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myFeedback/myFeedback",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myFeedDatails/myFeedDatails",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/attention/attention",
+			"style": {
+				"navigationBarTitleText": "关注有礼",
+				"navigationBarBackgroundColor": "#339EF9",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/saveMoney/saveMoney",
+			"style": {
+				"navigationBarTitleText": "省钱购",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#339EF9",
+				"disableScroll": true,
+				"transparentTitle": "auto",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+
+		}, {
+			"path": "pages/saveMoney/goodeLis",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#339EF9",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+
+		}, {
+	"path": "pages/earnJfb/index",
+	"style": {
+		"navigationBarTitleText": "赚集分宝",
+		"enablePullDownRefresh": false,
+		"navigationBarBackgroundColor": "#FF580E",
+		"disableScroll": true,
+		"transparentTitle": "auto",
+		"mp-alipay": {
+			"allowsBounceVertical": "NO"
+		}
+	}
+	}
+    ,{
+            "path" : "pages/jfbRecord/jfbRecord",
+            "style" :                                                                                    
+            {
+             "navigationBarTitleText": "收益记录",
+             "navigationBarBackgroundColor": "#2892F3",
+             "transparentTitle": "auto",
+             "disableScroll": true,
+             "mp-alipay": {
+             	"allowsBounceVertical": "NO"
+             },
+             "usingComponents": {
+             	"loading": "/components/loading/loading"
+             }
+            }
+            
+        }
+    ],
+"globalStyle": {
+	"navigationBarTextStyle": "black",
+	"navigationBarTitleText": "趣打卡",
+	"navigationBarBackgroundColor": "#FFFFFF",
+	"backgroundColor": "#FFFFFF",
+	"usingComponents": {
+		// "bc-group": "plugin://bcGroup/enter-group"
+	},
+	"mp-alipay": {
+		"enableInPageRender": "YES"
+	}
+},
+"tabBar": {
+	"color": "#999",
+	"selectedColor": "#13aafd",
+	"backgroundColor": "#ffffff",
+	"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "/static/tabbar/index1.png",
+			"selectedIconPath": "/static/tabbar/index.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/welfare/welfare",
+			"iconPath": "/static/tabbar/save1.png",
+			"selectedIconPath": "/static/tabbar/save.png",
+			"text": "福利"
+		},
+		{
+			"pagePath": "pages/saveMoney/saveMoney",
+			"iconPath": "/static/tabbar/welfare1.png",
+			"selectedIconPath": "/static/tabbar/welfare.png",
+			"text": "购物"
+		},
+		{
+			"pagePath": "pages/my/my",
+			"iconPath": "/static/tabbar/my1.png",
+			"selectedIconPath": "/static/tabbar/my.png",
+			"text": "我的"
+		}
+	]
+}
+}

@@ -1,0 +1,44 @@
+{
+  "_from": "miniapp-bc-user",
+  "_id": "miniapp-bc-user@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-47oVGkXxMdna2UV0+se2J3PuH70=",
+  "_location": "/miniapp-bc-user",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "miniapp-bc-user",
+    "name": "miniapp-bc-user",
+    "escapedName": "miniapp-bc-user",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/miniapp-bc-user/download/miniapp-bc-user-0.0.4.tgz",
+  "_shasum": "e3ba151a45f131d9dad94574fac7b62773ee1fbd",
+  "_spec": "miniapp-bc-user",
+  "_where": "D:\\xcx\\punchcard\\walk",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.11.1"
+  },
+  "deprecated": false,
+  "description": "",
+  "files": [
+    "es"
+  ],
+  "license": "ISC",
+  "main": "./es/index.js",
+  "name": "miniapp-bc-user",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {},
+  "version": "0.0.4"
+}

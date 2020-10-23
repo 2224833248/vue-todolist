@@ -1,0 +1,9 @@
+<block a:if="{{ show }}">
+  <component
+    a:for="{{ info }}"
+    a:for-item="item"
+    is="{{ item.path }}"
+    bc-id="{{ item.apId }}"
+    ext="{{ ext }}"
+  ></component>
+</block>

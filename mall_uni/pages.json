@@ -1,0 +1,281 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"transparentTitle": "always",
+				"navigationBarBackgroundColor": "#ff0000",
+				"disableScroll": true,
+				"titlePenetrate":"YES",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": "false"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000",
+				"transparentTitle": "always",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO",
+					"usingComponents": {
+						// "like": "plugin://like/boom" // 第一步里自定义的插件名称
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/record",
+			"style": {
+				"navigationBarTitleText": "夺宝记录",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		{
+			"path": "pages/gift/index",
+			"style": {
+				"transparentTitle": "none",
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		},
+
+		{
+			"path": "pages/my/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/my/feedbackok",
+			"style": {
+				"navigationBarTitleText": "反馈结果",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/my/seting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"transparentTitle": "none",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/friend/friend",
+			"style": {
+				"navigationBarTitleText": "我的好友",
+				"navigationBarTextStyle": "white",
+				"transparentTitle": "auto",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, 
+		
+		{
+		    "path" : "pages/index/searchResult",
+		    "style" : {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ff0000",
+				"disableScroll": true,
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		
+		{
+		    "path" : "pages/index/copySearch",
+		    "style" : {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#ff0000",
+				"disableScroll": true,
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}}
+		},
+		{
+			"path": "pages/listDatails/listDatails",
+			"style": {
+				// 商品详情
+				"navigationBarTitleText": "",
+				"transparentTitle": "auto"
+			}
+		}, {
+			"path": "pages/income/income",
+			"style": {
+				"navigationBarTitleText": "收支明细",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/eargings/eargings",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"navigationBarBackgroundColor": "#ff0000",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/myOrder/myOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/goodsClassif/goodsClassif",
+			"style": {
+				"navigationBarTitleText": "商品分类",
+				// "transparentTitle": "none",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/carryCash/carryCash",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/browsingHistory/browsingHistory",
+			"style": {
+				"navigationBarTitleText": "浏览记录",
+				// "transparentTitle": "always",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/limit/limit",
+			"style": {
+				"navigationBarTitleText": "限量超值购"
+			}
+		}, {
+			"path": "pages/goods/album",
+			"style": {
+				"navigationBarTitleText": "限量超值购"
+			}
+		}, {
+			"path": "pages/SignIn/signin",
+			"style": {
+				"navigationBarTitleText": "签到领集分宝",
+				"navigationStyle": "custome",
+				"transparentTitle": "always",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		},{
+			"path": "pages/hotSale/hotSale",
+			"style": {
+				"navigationBarTitleText": "实时热销榜",
+				"navigationStyle": "custome",
+				"transparentTitle": "always",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff0000"
+			}
+		}, {
+			"path": "pages/limit/subsidy",
+			"style": {
+				"navigationBarTitleText": "购物补贴金",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/oneMoney/oneMoney",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"transparentTitle": "auto",
+				"navigationBarBackgroundColor": "#ff0000",
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+
+			}
+		}, {
+			"path": "pages/allGoods/allGoods",
+			"style": {
+				"navigationBarTitleText": "全部商品",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/webview/webview",
+			"style": {}
+		}
+   //      ,{
+   //          "path" : "pages/rankingList/rankingList",
+   //          "style" : {
+			// 	"transparentTitle": "always",
+			// 	"navigationBarTextStyle": "white",
+			// 	"navigationBarBackgroundColor": "#ff0000"
+			// }
+   //      }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "淘牛品",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FE5D35",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabBar/footer1.png",
+				"selectedIconPath": "/static/tabBar/footer1.1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/goodsClassif/goodsClassif",
+				"iconPath": "/static/tabBar/footer2.png",
+				"selectedIconPath": "/static/tabBar/footer2.2.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/gift/index",
+				"iconPath": "/static/tabBar/footer3.png",
+				"selectedIconPath": "/static/tabBar/footer3.3.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/tabBar/footer4.png",
+				"selectedIconPath": "/static/tabBar/footer4.4.png",
+				"text": "我的"
+			}
+		]
+	}
+}

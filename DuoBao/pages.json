@@ -1,0 +1,441 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "天天夺宝",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FE6E3B",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO",
+					"usingComponents": {
+						// "like": "plugin://like/boom" // 第一步里自定义的插件名称
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/task",
+			"style": {
+				"navigationBarTitleText": "全部任务",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO",
+					"usingComponents": {}
+				}
+			}
+		},
+		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "签到",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/sign/rule",
+			"style": {
+				"navigationBarTitleText": "签到规则",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/duobao/index",
+			"style": {
+				"navigationBarTitleText": "夺宝首页",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/duobao/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/my/record",
+			"style": {
+				"navigationBarTitleText": "夺宝记录",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		{
+			"path": "pages/invite/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "always",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/gift/index",
+			"style": {
+				"transparentTitle": "none",
+				"navigationBarTitleText": "金币商城",
+				"disableScroll": true, // 禁止原生页面滚动, 解决Android小程序下拉卡顿的问题
+				"app-plus": {
+					"bounce": "none" // 取消APP端iOS回弹,避免与下拉刷新冲突 (可统一配在 'globalStyle')
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/gift/detail",
+			"style": {
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/gift/record",
+			"style": {
+				"navigationBarTitleText": "兑换记录",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/exchange/exchange",
+			"style": {
+				"navigationBarTitleText": "金币记录",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/gift/pay",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/address/list",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/address/edit",
+			"style": {
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/goods/index",
+			"style": {
+				"navigationBarTitleText": "省钱购",
+				"mp-alipay": {
+					"usingComponents": {
+						"like": "plugin://like/boom", // 第一步里自定义的插件名称
+						"day": "plugin://day/boom",
+						"dayhot": "plugin://dayhot/boom",
+						"bc-module": "/static/miniapp-bc-user/es/bc-module/bc-module"
+					}
+				},
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/my/feedback",
+			"style": {
+				"navigationBarTitleText": "建议反馈",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/my/feedbackok",
+			"style": {
+				"navigationBarTitleText": "反馈结果",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/my/seting",
+			"style": {
+				"navigationBarTitleText": "用户设置",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#FE6E3B",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/myGold/myGold",
+			"style": {
+				"navigationBarTitleText": "金额明细",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/enroll/index",
+			"style": {
+				"navigationBarTitleText": "商家招募",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/goods/album",
+			"style": {
+				"navigationBarTitleText": "限量秒杀款",
+				"transparentTitle": "none"
+			}
+		},
+		{
+			"path": "pages/duobao/rule",
+			"style": {}
+		},
+		{
+			"path": "pages/red/index",
+			"style": {
+				"navigationBarTitleText": "限时秒杀现金"
+			}
+		},
+		{
+			"path": "pages/goods/tbk",
+			"style": {
+				"transparentTitle": "auto",
+				"navigationBarTitleText": "夺宝商城",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#FF7C45",
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		{
+			"path": "pages/activity/fruitslots",
+			"style": {
+				"navigationBarTitleText": "幸运大转盘"
+			}
+		},
+		{
+			"path": "pages/activity/record",
+			"style": {
+				"navigationBarTitleText": "我的奖品"
+			}
+		},
+		{
+			"path": "pages/centreVip/centreVip",
+			"style": {
+				"navigationBarTitleText": "充值中心"
+			}
+		},
+		{
+			"path": "pages/centreVip/payment",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+			"path": "pages/centreVip/search",
+			"style": {
+				"navigationBarTitleText": "订单查询"
+			}
+		},
+		{
+			"path": "pages/goods/subsidy",
+			"style": {
+				"navigationBarTitleText": "购物补贴金"
+			}
+		},
+		{
+			"path": "pages/goods/subsidy2",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "always",
+				"disableScroll": true,
+				"navigationBarBackgroundColor": "#ff0000",
+				"titlePenetrate": "YES",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+
+			}
+		},
+		{
+			"path": "pages/activity/hit-eggs",
+			"style": {
+				"navigationBarTitleText": "手气大比拼"
+			}
+		},
+		{
+
+			"path": "pages/attention/attention",
+			"style": {
+				"navigationBarTitleText": "关注有礼",
+				"navigationBarBackgroundColor": "#339EF9",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+
+		},
+		{
+			"path": "pages/myFeedback/myFeedback",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myFeedDatails/myFeedDatails",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/goods/resource",
+			"style": {
+				"navigationBarTitleText": "浏览找红包",
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				},
+				"mp-alipay": {
+					"usingComponents": {
+						"ad-list": "plugin://adList/ad-list"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/invite/share",
+			"style": {
+				"navigationBarTitleText": "分享有礼",
+				"navigationBarBackgroundColor": "#FB7C32",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/invite/shareRule",
+			"style": {
+				"navigationBarTitleText": "活动规则",
+				"navigationBarBackgroundColor": "#FC5F31",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/activity/eleven",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFF",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/activity/xcxlist",
+			"style": {
+				"navigationBarTitleText": "赚更多",
+				"navigationBarBackgroundColor": "#FFF",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "天天夺宝",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"mp-alipay": {
+			"enableInPageRender": "YES"
+		},
+		"usingComponents": {
+			"bc-group": "plugin://bcGroup/enter-group"
+		}
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FE5D35",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/index.png",
+				"selectedIconPath": "/static/tabbar/index_HL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/duobao/index",
+				"iconPath": "/static/tabbar/duobao.png",
+				"selectedIconPath": "/static/tabbar/duobao_HL.png",
+				"text": "夺宝岛"
+			},
+			// {
+			// 	"pagePath": "pages/goods/index",
+			// 	"iconPath": "/static/tabbar/shengqian.png",
+			// 	"selectedIconPath": "/static/tabbar/shengqian_HL.png",
+			// 	"text": "省钱购"
+			// },
+			{
+				"pagePath": "pages/gift/index",
+				"iconPath": "/static/tabbar/shengqian.png",
+				"selectedIconPath": "/static/tabbar/shengqian_HL.png",
+				"text": "金币商城"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/tabbar/my.png",
+				"selectedIconPath": "/static/tabbar/my_HL.png",
+				"text": "我的"
+			}
+		]
+	}
+}

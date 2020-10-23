@@ -1,0 +1,358 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FF2C32",
+				"transparentTitle": "always",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		}, {
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "0元抽奖",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "全部抽奖",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myGold/myGold",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FE6E3B",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/welfare/welfare",
+			"style": {
+				"navigationBarTitleText": "省钱购",
+				"navigationBarBackgroundColor": "#ff3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		}, {
+			"path": "pages/exchange/exchange",
+			"style": {
+				"navigationBarTitleText": "分享有礼",
+				"navigationBarBackgroundColor": "#FF3135",
+				// "transparentTitle": "always",
+				"navigationStyle": "custom",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/ruleDateils/ruleDateils",
+			"style": {
+				"navigationBarTitleText": "活动规则",
+				"transparentTitle": "NO",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO",
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/allTask/allTask",
+			"style": {
+				"navigationBarTitleText": "任务中心",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "none",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2892F3",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "建议反馈",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/applyPay/applyPay",
+			"style": {
+				// "navigationBarTitleText": "早起打卡挑战",
+				"navigationBarBackgroundColor": "#2892F3",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myFeedback/myFeedback",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/myFeedDatails/myFeedDatails",
+			"style": {
+				"navigationBarTitleText": "我的反馈",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+
+			"path": "pages/largeVolume/largeVolume",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FF2C32",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		{
+			"path": "pages/sharemsg/sharemsg",
+			"style": {
+				"navigationBarTitleText": "分享助力消息",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+
+			"path": "pages/food/food",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FF2C32",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+		},
+		{
+			"path": "pages/drawmsg/drawmsg",
+			"style": {
+				"navigationBarTitleText": "抽奖活动开奖消息",
+				"navigationBarBackgroundColor": "#FF3135",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/pricedetail/pricedetail",
+			"style": {
+				"navigationBarTitleText": "奖品详情",
+				"navigationBarBackgroundColor": "#FF3135",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+		}, {
+			"path": "pages/activerules/activerules",
+			"style": {
+				"navigationBarTitleText": "活动规则",
+				"navigationBarBackgroundColor": "",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/clickbanner/clickbanner",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FC7E1C",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"usingComponents": {
+					"loading": "/components/loading/loading"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/drawrules/drawrules",
+            "style" : {
+				"navigationBarTitleText": "抽奖规则",
+				"transparentTitle": "auto",
+				"disableScroll": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				}
+			}
+        },
+		{
+			"path": "pages/goods/album",
+			"style": {
+				"navigationBarTitleText": "限量秒杀款",
+				"transparentTitle": "none"
+			}
+		},
+        
+        {
+            "path" : "pages/winprice/winprice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "中奖纪录",
+				"navigationBarBackgroundColor": "#FF3135",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/drawrule/drawrule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抽奖规则",
+				"transparentTitle": "auto",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FF3135"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"usingComponents": {
+			// "bc-group": "plugin://bcGroup/enter-group"
+		},
+		"mp-alipay": {
+			"enableInPageRender": "YES"
+		}
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#000000",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/freedraw/index.png",
+				"selectedIconPath": "/static/freedraw/index2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/welfare/welfare",
+				"iconPath": "/static/freedraw/shop.png",
+				"selectedIconPath": "/static/freedraw/shop2.png",
+				"text": "省钱购"
+			},
+			{
+				"pagePath": "pages/myGold/myGold",
+				"iconPath": "/static/freedraw/message.png",
+				"selectedIconPath": "/static/freedraw/message2.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/freedraw/mine.png",
+				"selectedIconPath": "/static/freedraw/mine2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
